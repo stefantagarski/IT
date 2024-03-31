@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +13,8 @@ namespace lab1
         {
             if (!IsPostBack)
             {
-                lastLabel.Text = "Резултатите од гласањето ќе ги добиете по електронска пошта, на Е-MAIL: stefan@tagarski.com";
+                string mail = Request.QueryString["email"].ToString();
+                lastLabel.Text = "Резултатите од гласањето ќе ги добиете по електронска пошта, на Е-MAIL: " + mail;
             }
         }
     }
