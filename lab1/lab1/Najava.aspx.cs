@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +18,8 @@ namespace lab1
         {
             if(Page.IsValid)
             {
+                string mail = email.Text;
+                Session["UserEmail"] = mail;
                 Response.Redirect("Glasaj.aspx", true);
             }
         }
