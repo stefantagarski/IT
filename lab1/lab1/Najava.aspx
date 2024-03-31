@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Najava.aspx.cs" Inherits="lab1.Najava" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Najava.aspx.cs" Inherits="lab1.Najava" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<div class="container" style="margin: 20px;">
+    <div class="container" style="margin: 20px;">
        <div class="row">
            <div class="col-md-3">
               Name <asp:TextBox ID="name" runat="server" style="width: 100%"></asp:TextBox>
@@ -19,7 +20,7 @@
 
        <div class="row" style="margin-top: 10px;">
            <div class="col-md-3">
-              Password <asp:TextBox ID="password" runat="server" style="width: 100%"></asp:TextBox>
+              Password <asp:TextBox ID="password" runat="server" style="width: 100%" TextMode="Password"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
                <asp:RequiredFieldValidator 
@@ -28,6 +29,16 @@
                    ErrorMessage="Please enter a password"
                    ControlToValidate="password"
                    Style="color: red"></asp:RequiredFieldValidator>
+
+
+               <asp:RegularExpressionValidator
+                   ID="passRegVal" 
+                   runat="server" 
+                   ErrorMessage="Enter a valid password"
+                   Style="color: red"
+                   ControlToValidate="password"
+                   Type="password"
+                   ValidationExpression=".{5,}"></asp:RegularExpressionValidator>
            </div>
        </div>
 
@@ -58,6 +69,5 @@
            <asp:Button ID="submit" runat="server" Text="Submit" OnClick="submit_Click" />
        </div>
    </div>
-
 
 </asp:Content>
