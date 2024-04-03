@@ -13,7 +13,7 @@ namespace lab1
         {
             if (!IsPostBack)
             {
-                
+                //string mail = Request.QueryString["UserEmail"];
                 lastLabel.Text = "Резултатите од гласањето ќе ги добиете по електронска пошта, на Е-MAIL: " + Session["UserEmail"].ToString();
             }
         }
