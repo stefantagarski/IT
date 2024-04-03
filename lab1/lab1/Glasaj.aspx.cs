@@ -54,7 +54,8 @@ namespace lab1
 
         protected void glasajte_Click(object sender, EventArgs e)
         {
-            Response.Redirect($"UspesnoGlasanje.aspx?email={Session["UserEmail"]}");
+          //  Response.Redirect($"UspesnoGlasanje.aspx?email={Session["UserEmail"]}");
+          Response.Redirect("UspesnoGlasanje.aspx");
         }
 
         protected void add_Click(object sender, EventArgs e)
