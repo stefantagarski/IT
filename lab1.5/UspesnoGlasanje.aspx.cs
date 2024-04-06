@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
+using Newtonsoft.Json.Linq;
 
 namespace isptina2012
 {
@@ -13,25 +14,31 @@ namespace isptina2012
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (!IsPostBack)
             {
-                HttpCookie nameCookie = Request.Cookies["name"];
+                string sessionName = Session["name"].ToString();
+                string sessionEmail = Session["email"].ToString();
+                string sessionSubject = Session["subject"].ToString();        
 
-                if(nameCookie != null && nameCookie.Value == Session["name"].ToString())
+                HttpCookie existingCookie = Request.Cookies[sessionName];
+
+                if (existingCookie != null)
                 {
-                    Message.Text = Session["name"].ToString() + ", веќе учествувавте во гласањето. Секoј кoрисник има правo да гласа самo еднаш. Ви благoдариме!";
-                    
-                } 
+                    Message.Text = $"{sessionName}, веќе учествувавте во гласањето. Секoј кoрисник има правo да гласа самo еднаш. Ви благoдариме!";
+                    results.Visible = false;
+                }
                 else
                 {
-                    HttpCookie cookie = new HttpCookie("name", Session["name"].ToString());
-                    cookie.Expires = DateTime.Now.AddHours(1);
-                    Response.Cookies.Add(cookie);
+                    HttpCookie newCookie = new HttpCookie(sessionName, "voted");
+                    newCookie.Expires = DateTime.Now.AddHours(1);
+                    Response.Cookies.Add(newCookie);
 
-                    Message.Text = Session["name"].ToString() + " , Ви благодариме за учеството во акцијата за избор на најинтересен предмет на ФИНКИ. Вашиот избор беше " + Session["subject"].ToString() + ". Резултатите од гласањето ќе ги добиете на електронска пошта, на " + Session["email"].ToString() + ".";
+                    Message.Text = $"{sessionName}, Ви благoдариме за учествoтo вo акцијата за избoр на најинтересен предмет на ФИНКИ. Вашиoт избoр беше {sessionSubject}. Резултатите oд гласањето ќе ги добиете на електрoнска пошта, на {sessionEmail}.";
                 }
-
             }
+
+
         }
 
         protected void resuts_Click(object sender, EventArgs e)
