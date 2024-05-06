@@ -1,0 +1,26 @@
+﻿@model lab2B.Models.EventModel
+@{
+    ViewBag.Title = "AddEvent";
+}
+
+<h2>Add a new Event: </h2>
+
+@using (Html.BeginForm("CreateNewEvent", "Event"))
+            {
+                <div class="form-control">
+                    @Html.LabelFor(e => e.Name)
+                    @Html.TextBoxFor(e => e.Name, new {@class = "form-control"})
+                </div>
+
+                <br />
+
+                <div class="form-control">
+                    @Html.LabelFor(e => e.Location)
+                    @Html.TextBoxFor(e => e.Location, new {@class = "form-control"})
+                    @Html.ValidationMessageFor(e => e.Location)
+                </div>
+
+                <br />
+
+                <button type="submit" class="btn btn-primary">Save</button>
+            }

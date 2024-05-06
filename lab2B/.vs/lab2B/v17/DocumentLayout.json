@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming FINKI\\IT\\lab2B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\views\\event\\showallevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\views\\event\\showallevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\views\\event\\addevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\views\\event\\addevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\views\\event\\showinformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\views\\event\\showinformations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\views\\event\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\views\\event\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|c:\\programming finki\\it\\lab2b\\lab2b\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F057A8E3-4B8C-41D1-B361-F30C1B6E2E1F}|lab2B\\lab2B.csproj|solutionrelative:lab2b\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "lab2B\\Models\\EventModel.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Models\\EventModel.cs",
+              "RelativeToolTip": "lab2B\\Models\\EventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T22:19:12.137Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "lab2B\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Controllers\\EventController.cs",
+              "RelativeToolTip": "lab2B\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T22:15:29.643Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowAllEvents.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\ShowAllEvents.cshtml",
+              "RelativeDocumentMoniker": "lab2B\\Views\\Event\\ShowAllEvents.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\ShowAllEvents.cshtml",
+              "RelativeToolTip": "lab2B\\Views\\Event\\ShowAllEvents.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T22:17:05.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddEvent.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\AddEvent.cshtml",
+              "RelativeDocumentMoniker": "lab2B\\Views\\Event\\AddEvent.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\AddEvent.cshtml*",
+              "RelativeToolTip": "lab2B\\Views\\Event\\AddEvent.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T22:23:20.978Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowInformations.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\ShowInformations.cshtml",
+              "RelativeDocumentMoniker": "lab2B\\Views\\Event\\ShowInformations.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\ShowInformations.cshtml",
+              "RelativeToolTip": "lab2B\\Views\\Event\\ShowInformations.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T22:27:58.583Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditEvent.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\EditEvent.cshtml",
+              "RelativeDocumentMoniker": "lab2B\\Views\\Event\\EditEvent.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\lab2B\\lab2B\\Views\\Event\\EditEvent.cshtml",
+              "RelativeToolTip": "lab2B\\Views\\Event\\EditEvent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T22:33:40.08Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿@model lab2B.Models.EventModel
+@{
+    ViewBag.Title = "ShowInformations";
+}
+
+<h2>Show Informations about the newly Added Event:</h2>
+
+<h4>Name: @Model.Name</h4>
+<h4>Location: @Model.Location</h4>
+
+<button class="btn btn-primary" onclick="location.href='@Url.Action("ShowAllEvents", "Event")'">Back</button>
