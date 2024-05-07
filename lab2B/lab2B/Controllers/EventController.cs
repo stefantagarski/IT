@@ -9,7 +9,12 @@ namespace lab2B.Controllers
 {
     public class EventController : Controller
     {
-        private static List<EventModel> events = new List<EventModel>();
+        private static List<EventModel> events = new List<EventModel>() 
+        {
+            new EventModel() {ID = 1, Name = "Coachella", Location = "California"},
+            new EventModel() {ID = 2, Name = "TomorrowLand", Location = "Bloom"},
+            new EventModel() {ID = 3, Name = "Sziget", Location = "Budapest"}
+        }
 
         public ActionResult ShowAllEvents()
         {
