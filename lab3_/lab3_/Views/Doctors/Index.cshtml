@@ -1,0 +1,77 @@
+﻿@model IEnumerable<lab3_.Models.Doctor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Doctors</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table id="doctorsTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HospitalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HospitalName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    <button data-doctor-id="@item.ID" class="btn btn-primary js-delete">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section scripts{
+    
+    <script>
+        $(document).ready(function () {
+            var table = $("#doctorsTable").DataTable();
+            $("#doctorsTable .js-delete").on("click", function () {
+                var button = $(this);
+                bootbox.confirm("Do you want to delete this doctor?", function (result) {
+                    if (result) {
+                        $.ajax({
+                            url: "Doctors/Delete/" + button.attr("data-doctor-id"),
+                            method: "GET",
+                            success: function () {
+                                table.row(button.parents("tr")).remove().draw();
+                            },
+                            error: function (err) {
+                                console.log(err);
+                            }
+                        });
+                    }
+                });
+            });
+        });
+
+    </script>
+    
+    }
