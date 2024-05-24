@@ -17,7 +17,8 @@ namespace lab3_.Controllers
         // GET: Doctors
         public ActionResult Index()
         {
-            return View(db.Doctors.ToList());
+            var doctors = db.Doctors.Include(d => d.Hospital);
+            return View(doctors.ToList());
         }
 
         // GET: Doctors/Details/5
@@ -38,6 +39,7 @@ namespace lab3_.Controllers
         // GET: Doctors/Create
         public ActionResult Create()
         {
+            ViewBag.hospitalID = new SelectList(db.Hospitals, "ID", "Name");
             return View();
         }
 
@@ -46,7 +48,7 @@ namespace lab3_.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Name,HospitalName,Address")] Doctor doctor)
+        public ActionResult Create([Bind(Include = "ID,Name,hospitalID")] Doctor doctor)
         {
             if (ModelState.IsValid)
             {
@@ -55,6 +57,7 @@ namespace lab3_.Controllers
                 return RedirectToAction("Index");
             }
 
+            ViewBag.hospitalID = new SelectList(db.Hospitals, "ID", "Name", doctor.hospitalID);
             return View(doctor);
         }
 
@@ -70,6 +73,7 @@ namespace lab3_.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.hospitalID = new SelectList(db.Hospitals, "ID", "Name", doctor.hospitalID);
             return View(doctor);
         }
 
@@ -78,7 +82,7 @@ namespace lab3_.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Name,HospitalName,Address")] Doctor doctor)
+        public ActionResult Edit([Bind(Include = "ID,Name,hospitalID")] Doctor doctor)
         {
             if (ModelState.IsValid)
             {
@@ -86,10 +90,11 @@ namespace lab3_.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
+            ViewBag.hospitalID = new SelectList(db.Hospitals, "ID", "Name", doctor.hospitalID);
             return View(doctor);
         }
 
-        
+       
         public ActionResult Delete(int id)
         {
             Doctor doctor = db.Doctors.Find(id);
@@ -108,18 +113,18 @@ namespace lab3_.Controllers
 
             return View(model);
         }
-        [HttpPost]
 
         public ActionResult NewPatient(PatientDoctors model)
         {
-            var patient = db.Patients.Find(model.patientID);
             var doctor = db.Doctors.Find(model.doctorID);
+            var patient = db.Patients.Find(model.patientID);
 
             doctor.Patients.Add(patient);
             db.SaveChanges();
 
             return View("Details", doctor);
         }
+
 
         protected override void Dispose(bool disposing)
         {

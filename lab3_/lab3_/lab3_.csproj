@@ -185,6 +185,18 @@
     <Compile Include="Migrations\202405142134289_inital1.Designer.cs">
       <DependentUpon>202405142134289_inital1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405232316498_updateDocHosRelation.cs" />
+    <Compile Include="Migrations\202405232316498_updateDocHosRelation.Designer.cs">
+      <DependentUpon>202405232316498_updateDocHosRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405232328265_updateDoctorModel.cs" />
+    <Compile Include="Migrations\202405232328265_updateDoctorModel.Designer.cs">
+      <DependentUpon>202405232328265_updateDoctorModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405240009342_initial5.cs" />
+    <Compile Include="Migrations\202405240009342_initial5.Designer.cs">
+      <DependentUpon>202405240009342_initial5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Doctor.cs" />
@@ -510,16 +522,16 @@
     <Content Include="Views\Patients\Details.cshtml" />
     <Content Include="Views\Patients\Edit.cshtml" />
     <Content Include="Views\Patients\Index.cshtml" />
-    <Content Include="Views\Doctors\Create.cshtml" />
-    <Content Include="Views\Doctors\Delete.cshtml" />
-    <Content Include="Views\Doctors\Details.cshtml" />
-    <Content Include="Views\Doctors\Edit.cshtml" />
-    <Content Include="Views\Doctors\Index.cshtml" />
     <Content Include="Views\Hospitals\Create.cshtml" />
     <Content Include="Views\Hospitals\Delete.cshtml" />
     <Content Include="Views\Hospitals\Details.cshtml" />
     <Content Include="Views\Hospitals\Edit.cshtml" />
     <Content Include="Views\Hospitals\Index.cshtml" />
+    <Content Include="Views\Doctors\Create.cshtml" />
+    <Content Include="Views\Doctors\Delete.cshtml" />
+    <Content Include="Views\Doctors\Details.cshtml" />
+    <Content Include="Views\Doctors\Edit.cshtml" />
+    <Content Include="Views\Doctors\Index.cshtml" />
     <Content Include="Views\Doctors\InsertNewPatient.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -558,6 +570,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405142134289_inital1.resx">
       <DependentUpon>202405142134289_inital1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405232316498_updateDocHosRelation.resx">
+      <DependentUpon>202405232316498_updateDocHosRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405232328265_updateDoctorModel.resx">
+      <DependentUpon>202405232328265_updateDoctorModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405240009342_initial5.resx">
+      <DependentUpon>202405240009342_initial5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

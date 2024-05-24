@@ -3,20 +3,20 @@
     ViewBag.Title = "InsertNewPatient";
 }
 
-<h2>Insert New Patient for: @Model.Doctor.Name</h2>
+<h2>Insert New Patient for the Doctor: @Model.Doctor.Name</h2>
 
 @using (Html.BeginForm("NewPatient", "Doctors"))
             {
-                <div class="form-control">
-
+                <div class="form-group">
                     @Html.HiddenFor(m => m.doctorID)
-
                     @Html.DropDownListFor(m => m.patientID, new SelectList(Model.Patients, "ID", "Name"),
                    new {@class = "form-control"})
                 </div>
 
                 <br />
 
-                <button type="submit" class="btn btn-primary">Save</button>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </div>
             }
 

@@ -19,36 +19,27 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.HospitalName)
+            @Html.DisplayNameFor(model => model.Hospital.Name)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.HospitalName)
+            @Html.DisplayFor(model => model.Hospital.Name)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Address)
+            @Html.DisplayNameFor(model => model.Hospital.Address)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Address)
+            @Html.DisplayFor(model => model.Hospital.Address)
         </dd>
+
 
     </dl>
 </div>
 
-
 <div>
-    @Html.ActionLink("Insert new Patient", "InsertNewPatient", new { id = Model.ID , @class = "btn btn-primary"})
-</div>
-
-
-<div>
-
-    <h4>
-        Patients who have visited this doctor:
-    </h4>
-
+    <p>Patients who have visited this doctor:</p>
     <ul>
         @foreach(var patient in Model.Patients)
             {
@@ -56,10 +47,11 @@
                     <a href="/Patients/Details/@patient.ID">@patient.Name</a>
                 </li>
             }
-
     </ul>
+</div>
 
-
+<div>
+    @Html.ActionLink("Insert new Patient", "InsertNewPatient", new {id = Model.ID})
 </div>
 
 <p>

@@ -13,9 +13,9 @@ namespace lab3_.Models
 
         public string Name { get; set; }
 
-        public string HospitalName { get; set; }
-
-        public string Address { get; set; }
+        [Display(Name = "Hospital")]
+        public int hospitalID { get; set; }
+        public virtual Hospital Hospital { get; set; }
 
         public virtual ICollection<Patient> Patients { get; set; }
 
