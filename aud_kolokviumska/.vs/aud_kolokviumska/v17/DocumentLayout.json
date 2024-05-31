@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDb__MSSQLLocalDB/aspnet_aud_kolokviumska_20240531013627/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\views\\account\\addusertorole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\views\\account\\addusertorole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\views\\albums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\views\\albums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\controllers\\albumsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\controllers\\albumsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|c:\\programming finki\\it\\aud_kolokviumska\\aud_kolokviumska\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E194FCC-5DBC-45BA-B05D-B9E8C685D611}|aud_kolokviumska\\aud_kolokviumska.csproj|solutionrelative:aud_kolokviumska\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\AppData\\Local\\Temp\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Views\\Albums\\Index.cshtml",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Views\\Albums\\Index.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Views\\Albums\\Index.cshtml",
+              "RelativeToolTip": "aud_kolokviumska\\Views\\Albums\\Index.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAYwD4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T23:49:20.136Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\ACER\\AppData\\Local\\Temp\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\ACER\\AppData\\Local\\Temp\\readme.txt",
+              "ToolTip": "readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-31T00:26:17.884Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDb__MSSQLLocalDB/aspnet_aud_kolokviumska_20240531013627/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-31T00:53:01.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlbumsController.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AlbumsController.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Controllers\\AlbumsController.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AlbumsController.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Controllers\\AlbumsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwGYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:23:00.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlbumsAPIController.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AlbumsAPIController.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Controllers\\AlbumsAPIController.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AlbumsAPIController.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Controllers\\AlbumsAPIController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAUwFgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:26:17.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "aud_kolokviumska\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:44:36.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUserToRole.cshtml",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Views\\Account\\AddUserToRole.cshtml",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Views\\Account\\AddUserToRole.cshtml",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Views\\Account\\AddUserToRole.cshtml",
+              "RelativeToolTip": "aud_kolokviumska\\Views\\Account\\AddUserToRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-31T00:41:03.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "aud_kolokviumska\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:44:37.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:44:51.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Models\\ManageViewModels.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAiwFoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:32:22.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAgwKEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:23:29.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Web.config",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Web.config",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Web.config",
+              "RelativeToolTip": "aud_kolokviumska\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-31T00:26:16.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Global.asax.cs",
+              "RelativeDocumentMoniker": "aud_kolokviumska\\Global.asax.cs",
+              "ToolTip": "C:\\Programming FINKI\\IT\\aud_kolokviumska\\aud_kolokviumska\\Global.asax.cs",
+              "RelativeToolTip": "aud_kolokviumska\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T00:27:01.129Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

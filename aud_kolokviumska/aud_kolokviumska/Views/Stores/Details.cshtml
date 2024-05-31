@@ -1,0 +1,49 @@
+﻿@model aud_kolokviumska.Models.Store
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Store</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+    </dl>
+</div>
+
+<div>
+    <h4>The store has the albums below:</h4>
+    <ul>
+        @foreach(var p in Model.albums)
+            {
+                <li>
+                    <a href="/Albums/Details/@p.Id">
+                        @p.Name
+                    </a>
+                </li>
+            }
+    </ul>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
