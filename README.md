@@ -1,2 +1,2 @@
 **Repo for subject**
-**Internet Technologies** (C# and .NET) laboratory and exam problems @ FCSE - Skopje
+**Internet Technologies** (C# - .NET framework) laboratory and exam problems @ FCSE - Skopje
