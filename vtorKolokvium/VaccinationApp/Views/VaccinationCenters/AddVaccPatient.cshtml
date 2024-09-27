@@ -1,0 +1,32 @@
+﻿@model VaccinationApp.Models.VaccinePatients
+@{
+    ViewBag.Title = "AddVaccPatient";
+}
+
+<h2>Add Vaccinated Patient for Center: @Model.VaccinationCenter.Name</h2>
+
+@using(Html.BeginForm("AddVaccPatient", "VaccinationCenters"))
+            {
+                <div class="form-control">
+                    @Html.HiddenFor(m => m.vaccinCenterID)
+                     
+                    @Html.LabelFor(m => m.Vaccines)
+                    @Html.DropDownListFor(m => m.vaccineID, new SelectList(Model.Vaccines, "ID", "Manufacturer"), new { @class = "form-control" })
+
+                    <br />
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DateTaken, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.DateTaken, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DateTaken, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                   
+                    @Html.LabelFor(m => m.patientID)
+                    @Html.DropDownListFor(m => m.patientID,
+                   new SelectList(Model.Patients, "ID", "FirstName"), new { @class = "form-control" })
+                    <br />
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            }
+
